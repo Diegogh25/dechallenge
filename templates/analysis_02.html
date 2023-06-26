@@ -1,0 +1,15 @@
+<!doctype html>
+<table>
+    <tr>
+        <th>id</th>
+        <th>department</th>
+        <th>hired</th>
+    </tr>
+    {% for r in result %}
+    <tr>
+        <td>{{ r[0] }}</td>
+        <td>{{ r[1] }}</td>
+        <td>{{ r[2] }}</td>
+    </tr>
+    {% endfor %}
+</table>

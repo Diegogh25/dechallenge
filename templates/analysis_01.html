@@ -1,0 +1,21 @@
+<!doctype html>
+<table>
+    <tr>
+        <th>department</th>
+        <th>job</th>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+    </tr>
+    {% for r in result %}
+    <tr>
+        <td>{{ r[0] }}</td>
+        <td>{{ r[1] }}</td>
+        <td>{{ r[2] }}</td>
+        <td>{{ r[3] }}</td>
+        <td>{{ r[4] }}</td>
+        <td>{{ r[5] }}</td>
+    </tr>
+    {% endfor %}
+</table>

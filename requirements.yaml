@@ -1,0 +1,7 @@
+# Specify the name of the environment or project
+name: dechallenge
+
+# Define the dependencies
+dependencies:
+  - flask
+  - pyodbc
