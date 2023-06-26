@@ -11,6 +11,6 @@ This project
 
 
 
-## Articles
+## Cloud architecture
 
-- fgsfds
+<img src="0_cloud_arquitecture.png" />
