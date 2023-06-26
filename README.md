@@ -3,19 +3,23 @@
 
 ## API: /upload/<table_name>
 - Upload tables
-- table_name: employees,departments,jobs
+- <table_name>: employees,departments,jobs
 ### Example
-shortcode: `localhost:port/upload/departments`
+`localhost:port/upload/departments`
+
 
 ## SQL: /show/dep-job
 - Shows a table with information of departments, jobs and hired employees by quarter.
 ### Example
-shortcode: `localhost:port/show/dep-job`
+`localhost:port/show/dep-job`
+
 
 ## SQL: /show/dep-hir
 - Shows a table with information of departments with most hired employees.
 ### Example
-shortcode: `localhost:port/show/dep-hir`
+`localhost:port/show/dep-hir`
+
+
 
 ## Architecture
 
